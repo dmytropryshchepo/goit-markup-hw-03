@@ -263,14 +263,9 @@ header {
 .team {
 	background-color: var(--light-bg-cl);
 }
-/* .team-list {
-	display: flex;
-	gap: 30px;
-}
 .team-item {
-	background-color: var(--cards-bg-cl);
-	flex-basis: calc((100% - 30px * 3) / 4);
-} */
+	background-color: var(--cards-bg-cl)
+}
 
 .team-title {
 	padding-top: 94px;
