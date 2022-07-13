@@ -25,9 +25,8 @@
 	<body>
 		<!-- шапка -->
 		<header class="header">
-			<a class="logo link" href="./index.html">
-				Web
-				<span class="logo-light">Studio</span>
+			<div class="container header-container">
+			<a class="logo logo-mg link" href="./index.html">Web<span class="logo-light">Studio</span>
 			</a>
 			<nav class="header-nav">
 				<ul class="header-list list">
@@ -42,24 +41,24 @@
 					</li>
 				</ul>
 			</nav>
-			<ul class="header-contacts list">
-				<li class="header-contacts-item">
+			
 					<a class="header-contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-				</li>
-				<li class="header-contacts-item">
+				
 					<a class="header-contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-				</li>
-			</ul>
+				</div>
 		</header>
 		<!-- основная информация -->
 		<main>
 			<!-- секция герой -->
 			<section class="hero">
+				<div class="container cntainer-hero">
 				<h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
 				<button type="button" class="hero-btn btn">Заказать услугу</button>
+			</div>
 			</section>
 			<!-- наши особенности -->
-			<section class="peculiarities">
+			<section class="peculiarities section">
+				<div class="container peculiarities-container">	
 				<h2 class="visually-hidden">особенности</h2>
 				<ul class="peculiarities-list list">
 					<li class="peculiarities-item">
@@ -85,15 +84,17 @@
 						<p class="peculiarities-p">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
 					</li>
 				</ul>
+			</div>
 			</section>
 			<!-- Чем мы занимаемся -->
-			<section class="examples">
+			<section class="examples section">
+				<div class="container">
 				<h2 class="examples-title">Чем мы занимаемся</h2>
-				<ul class="examples-list list">
-					<li class="examples-item">
+				<ul class="examples-list list cards-set">
+					<li class="examples-item cards-set-item">
 						<img class="examples-img" src="./images/box1.jpg" alt="наисание кода" width="370" height="290" />
 					</li>
-					<li class="examples-item">
+					<li class="examples-item cards-set-item">
 						<img
 							class="examples-img"
 							src="./images/box2.jpg"
@@ -102,16 +103,18 @@
 							height="290"
 						/>
 					</li>
-					<li class="examples-item">
+					<li class="examples-item cards-set-item">
 						<img class="examples-img" src="./images/box3.jpg" alt="готовый продукт" width="370" height="290" />
 					</li>
 				</ul>
+			</div>
 			</section>
 			<!-- наша команда -->
-			<section class="team">
+			<section class="team section">
+				<div class="container">
 				<h2 class="team-title">Наша команда</h2>
-				<ul class="team-list list">
-					<li class="team-item">
+				<ul class="team-list list cards-set ">
+					<li class="team-item cards-set-item">
 						<img
 							class="team-img"
 							src="./images/teamphoto/img1.jpg"
@@ -119,10 +122,13 @@
 							width="270"
 							height="260"
 						/>
+						<div class="team-wrapper">
 						<h3 class="team-name">Игорь Демьяненко</h3>
 						<p class="team-proffeison" lang="en">Product Designer</p>
+					</div>
 					</li>
-					<li class="team-item">
+					
+					<li class="team-item cards-set-item">
 						<img
 							class="team-img"
 							src="./images/teamphoto/img2.jpg"
@@ -130,10 +136,12 @@
 							width="270"
 							height="260"
 						/>
+						<div class="team-wrapper">
 						<h3 class="team-name">Ольга Репина</h3>
 						<p class="team-proffeison" lang="en">Frontend Developer</p>
+					</div>
 					</li>
-					<li class="team-item">
+					<li class="team-item cards-set-item">
 						<img
 							class="team-img"
 							src="./images/teamphoto/img3.jpg"
@@ -141,10 +149,12 @@
 							width="270"
 							height="260"
 						/>
+						<div class="team-wrapper">
 						<h3 class="team-name">Николай Тарасов</h3>
 						<p class="team-proffeison" lang="en">Marketing</p>
+					</div>
 					</li>
-					<li class="team-item">
+					<li class="team-item cards-set-item">
 						<img
 							class="team-img"
 							src="./images/teamphoto/img4.jpg"
@@ -152,18 +162,19 @@
 							width="270"
 							height="260"
 						/>
+						<div class="team-wrapper">
 						<h3 class="team-name">Михаил Ермаков</h3>
 						<p class="team-proffeison" lang="en">UI Designer</p>
+					</div>
 					</li>
 				</ul>
+			</div>
 			</section>
 		</main>
 		<!-- подвал -->
 		<footer class="footer">
-			<a class="logo link" href="./index.html">
-				Web
-				<span class="logo-dark">Studio</span>
-			</a>
+			<div class="container">
+			<a class="logo logo-ft link" href="./index.html">Web<span class="logo-dark">Studio</span></a>
 			<address class="address">
 				<ul class="address-list list">
 					<li class="address-iteam">
@@ -184,6 +195,7 @@
 					</li>
 				</ul>
 			</address>
+		</div>
 		</footer>
 	</body>
 </html>
