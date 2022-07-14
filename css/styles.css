@@ -89,8 +89,9 @@ gap: var(--indent);
 	background-color: #188ce8;
 }
 .btn {
+	margin-bottom: 200px;
 display: block;
-margin: 0 auto;
+/* margin: 0 auto; */
 	padding: 8px 30px;
 	cursor: pointer;
 	background-color: var(--accent-txt-cl);
@@ -190,9 +191,14 @@ header {
 	
 }
 .cntainer-hero {
-	
+	display: flex;
+	margin: 0 auto;
+	align-items: center;
+	flex-direction: column;
+	gap: var(--indent);
 }
 .hero-title {
+	margin-top: 200px;
 	width: 696px; 
 	font-weight: 900;
 	font-size: 44px;
