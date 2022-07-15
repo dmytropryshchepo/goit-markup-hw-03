@@ -363,6 +363,7 @@ header {
 	line-height: calc(26 / 16);
 	text-align: center;
 	letter-spacing: 0.03em;
+	box-shadow: none;
 	color: var(--main-txt-cl);
 }
 .btn-filtr:hover,
