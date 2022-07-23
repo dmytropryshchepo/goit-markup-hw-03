@@ -370,10 +370,15 @@ header {
 .btn-filtr:focus {
 	background-color: var(--accent-txt-cl);
 	color: var(--white-txt-cl);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* filtr end */
 .portfolio-item {
 	cursor: pointer;
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-wrapper {
 	padding-top: 20px;
